@@ -1,5 +1,8 @@
-SQLAlchemy + Alembic + telebot + postgresql + crontab
+SQLAlchemy + Alembic + telebot + postgresql + crontab + requests
 
 
-Надо настроить cron -> "*/1 * * * * ~/check_and_send_notification" (каждую минуту для наглядности)
-
+Надо настроить cron -> "*/1 * * * * ~/check_and_send_notification.py" (каждую минуту для наглядности)
+commands:
+    crontab -e
+    Верхняя команда
+    :wq
